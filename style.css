@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #111;
+    color: #ddd;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+}
+
+.navigation li {
+    margin-right: 1rem;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #ddd;
+}
+
+.user-actions {
+    display: flex;
+}
+
+.search-button,
+.login-button,
+.settings-button {
+    background-color: #222;
+    color: #ddd;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+.sidebar,
+.sidebar-right {
+    background-color: #222;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.content {
+    background-color: #222;
+    padding: 1rem;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+.content-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.tournament {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.tournament-title {
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.tournament-details {
+    margin-left: 1rem;
+    font-size: 0.8rem;
+}
+
+.lichess-description {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
+.game-modes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.game-mode {
+    background-color: #333;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    width: calc(33.33% - 1rem);
+    text-align: center;
+}
+
+.game-mode-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.game-mode-type {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.play-button {
+    background-color: #444;
+    color: #ddd;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.statistics {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+}
